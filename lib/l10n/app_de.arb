@@ -1,0 +1,72 @@
+{
+  "slotOverviewTitle": "Slots",
+  "slotItemFreeSlots": "{count,plural, =0{Keine freien Slots 🥲} other{{count} freie Slots}}",
+  "@slotItemFreeSlots": {
+    "description": "Amount of free slots",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "slotItemDuration": "{start} - {end}",
+  "@slotItemDuration": {
+    "description": "Duration of a slot",
+    "placeholders": {
+      "start": {
+        "type": "DateTime",
+        "format": "Hm"
+      },
+      "end": {
+        "type": "DateTime",
+        "format": "Hm"
+      }
+    }
+  },
+  "slotItemBookingButton": "BUCHEN",
+  "slotItemBookedLabel": "GEBUCHT",
+  "slotLoadingError": "Ups, die Slots konnten nicht geladen werden.",
+  "slotBookingAccountErrorDialogTitle": "Unvollständige Buchungsdaten",
+  "slotBookingAccountErrorDialogDescription": "Gib vor der Buchung bitte deine kompletten Buchungsdaten ein.",
+  "slotBookingAccountErrorDialogButtonOk": "OK",
+  "slotBookingDescription": "Möchtest du diesen Slot jetzt buchen?",
+  "slotBookingError": "Deine Buchung ist leider fehlgeschlagen. Versuche es bitte erneut oder wähle einen anderen Slot.",
+  "slotBookingSuccess": "Dein Slot wurde erfolgreich gebucht!",
+  "slotBookingButtonBook": "JETZT BUCHEN",
+  "slotBookingButtonCancel": "ABBRECHEN",
+  "slotBookingButtonOk": "OK",
+  "slotBookingButtonTryAgain": "ERNEUT VERSUCHEN",
+  "slotBookingButtonAddToCalendar": "IM KALENDER EINTRAGEN",
+  "slotBookingCalendarTitle": "Bouldern - Monolith",
+  "slotBookingCalendarLocation": "Monolith Boulderhalle Münster",
+  "slotFilterTitle": "Filter",
+  "slotFilterWeekdayTitle": "Wochentage",
+  "slotFilterTimeTitle": "Tageszeit",
+  "slotFilterTimeMinStartTime": "Min. Startzeit",
+  "slotFilterTimeMaxStartTime": "Max. Startzeit",
+  "slotFilterHideFullSlots": "Ausgebuchte Slots ausblenden",
+  "accountFormTitle": "Deine Buchungsdaten",
+  "accountFormFirstNameLabel": "Vorname",
+  "accountFormFirstNameError": "Gib deinen Vornamen ein",
+  "accountFormLastNameLabel": "Nachname",
+  "accountFormLastNameError": "Gib deinen Nachnamen ein",
+  "accountFormMailLabel": "Mail Adresse",
+  "accountFormMailError": "Gib eine gültige Mail Adresse ein",
+  "accountFormStreetLabel": "Straße und Hausnummer",
+  "accountFormStreetError": "Gib deine Straße und Hausnummer ein",
+  "accountFormPostalCodeLabel": "PLZ",
+  "accountFormPostalCodeError": "Gib deine Postleitzahl ein",
+  "accountFormCityLabel": "Stadt",
+  "accountFormCityError": "Gib den Namen deiner Stadt ein",
+  "accountFormPhoneLabel": "Telefonnummer",
+  "accountFormPhoneError": "Gib deine Telefonnummer ein",
+  "accountFormDateOfBirthLabel": "Geburtstag",
+  "accountFormDateOfBirthError": "Gib deinen Geburtstag an (tt.mm.jjjj)",
+  "accountFormDateOfBirthHint": "tt.mm.jjjj",
+  "accountFormButtonSave": "SPEICHERN",
+  "accountFormButtonCancel": "ABBRECHEN",
+  "accountFormDeleteDialogTitle": "Daten löschen?",
+  "accountFormDeleteDialogDescription": "Sollen alle Daten gelöscht werden?",
+  "accountFormDeleteDialogButtonOk": "OK",
+  "accountFormDeleteDialogButtonCancel": "ABBRECHEN"
+}

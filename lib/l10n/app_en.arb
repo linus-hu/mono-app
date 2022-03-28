@@ -1,0 +1,72 @@
+{
+  "slotOverviewTitle": "Slots",
+  "slotItemFreeSlots": "{count,plural, =0{No free slots 🥲} other{{count} free slots}}",
+  "@slotItemFreeSlots": {
+    "description": "Amount of free slots",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "slotItemDuration": "{start} - {end}",
+  "@slotItemDuration": {
+    "description": "Duration of a slot",
+    "placeholders": {
+      "start": {
+        "type": "DateTime",
+        "format": "Hm"
+      },
+      "end": {
+        "type": "DateTime",
+        "format": "Hm"
+      }
+    }
+  },
+  "slotItemBookingButton": "BOOK",
+  "slotItemBookedLabel": "BOOKED",
+  "slotLoadingError": "Oops, the slots could not be loaded.",
+  "slotBookingAccountErrorDialogTitle": "Incomplete account data",
+  "slotBookingAccountErrorDialogDescription": "Please enter your account data completely before booking.",
+  "slotBookingAccountErrorDialogButtonOk": "OK",
+  "slotBookingDescription": "Would you like to book this slot?",
+  "slotBookingError": "Your booking did not succeed. Please try again or choose another slot.",
+  "slotBookingSuccess": "Your slot was booked successfully!",
+  "slotBookingButtonBook": "BOOK NOW",
+  "slotBookingButtonCancel": "CANCEL",
+  "slotBookingButtonOk": "OK",
+  "slotBookingButtonTryAgain": "TRY AGAIN",
+  "slotBookingButtonAddToCalendar": "ADD TO CALENDAR",
+  "slotBookingCalendarTitle": "Bouldering - Monolith",
+  "slotBookingCalendarLocation": "Monolith Boulderhalle Münster",
+  "slotFilterTitle": "Filters",
+  "slotFilterWeekdayTitle": "Weekdays",
+  "slotFilterTimeTitle": "Daytime",
+  "slotFilterTimeMinStartTime": "Min. Start Time",
+  "slotFilterTimeMaxStartTime": "Max. Start Time",
+  "slotFilterHideFullSlots": "Hide full slots",
+  "accountFormTitle": "Your booking data",
+  "accountFormFirstNameLabel": "First name",
+  "accountFormFirstNameError": "Enter your first name",
+  "accountFormLastNameLabel": "Last name",
+  "accountFormLastNameError": "Enter your first name",
+  "accountFormMailLabel": "Email address",
+  "accountFormMailError": "Enter a valid email address",
+  "accountFormStreetLabel": "Street and house number",
+  "accountFormStreetError": "Enter your street and house number",
+  "accountFormPostalCodeLabel": "Postal code",
+  "accountFormPostalCodeError": "Enter your postal code",
+  "accountFormCityLabel": "City",
+  "accountFormCityError": "Enter your city name",
+  "accountFormPhoneLabel": "Phone number",
+  "accountFormPhoneError": "Enter your phone number",
+  "accountFormDateOfBirthLabel": "Date of birth",
+  "accountFormDateOfBirthError": "Enter your date of birth like dd.mm.yyyy",
+  "accountFormDateOfBirthHint": "dd.mm.yyyy",
+  "accountFormButtonSave": "SAVE",
+  "accountFormButtonCancel": "CANCEL",
+  "accountFormDeleteDialogTitle": "Delete data?",
+  "accountFormDeleteDialogDescription": "Do you want to delete all data?",
+  "accountFormDeleteDialogButtonOk": "OK",
+  "accountFormDeleteDialogButtonCancel": "CANCEL"
+}
